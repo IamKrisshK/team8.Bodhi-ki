@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './App.css';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import AddMember from './pages/AddMember';
-import ViewMembers from './pages/ViewMembers';
-import MemberDetails from './pages/MemberDetails';
+import './app.css';
+import Navbar from './components/Navbar.js';
+import Home from './pages/Home.js';
+import AddMember from './pages/AddMember.js';
+import ViewMembers from './pages/ViewMembers.js';
+import MemberDetails from './pages/MemberDetails.js';
 
 export default function App(){
  return (

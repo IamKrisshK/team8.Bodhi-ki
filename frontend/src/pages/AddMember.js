@@ -8,7 +8,7 @@ export default function AddMember(){
   const data=new FormData();
   Object.keys(form).forEach(k=>data.append(k,form[k]));
   data.append('image',image);
-  await axios.post('http://localhost:5000/api/members',data);
+  await axios.post('http://localhost:5050/api/members',data);
   alert('Member Added');
  };
  return <form className='card form' onSubmit={submit}>

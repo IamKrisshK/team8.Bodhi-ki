@@ -11,5 +11,5 @@ app.use('/uploads', express.static(path.join(__dirname,'uploads')));
 app.use('/api/members', require('./routes/members'));
 
 mongoose.connect(process.env.MONGO_URI)
-.then(()=> app.listen(5000, ()=> console.log('Server running on 5000')))
+.then(()=> app.listen(process.env.PORT, ()=> console.log(`Server running on ${process.env.PORT}`)))
 .catch(console.error);
