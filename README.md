@@ -80,7 +80,7 @@ student-team-app/
 │── README.md
 │── .gitignore
 
-```text
+```
 ## Technologies Used
 
 ### Frontend
