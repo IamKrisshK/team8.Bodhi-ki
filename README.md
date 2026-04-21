@@ -83,83 +83,112 @@ student-team-app/
 ```
 ---
 
-Installation Steps
-##1. Clone the Repository
-git clone https://github.com/your-team-name/your-repository-name.git
+## Installation Steps
+
+### 1. Clone the Repository
+
+git clone https://github.com/your-team-name/your-repository-name.git  
 cd your-repository-name
-##2. Install Frontend Dependencies
-cd frontend
-npm install
+
+### 2. Install Frontend Dependencies
+
+cd frontend  
+npm install  
 npm install axios react-router-dom
-##3. Install Backend Dependencies
-cd ../backend
-npm install
-npm install express mongoose cors multer dotenv
+
+### 3. Install Backend Dependencies
+
+cd ../backend  
+npm install  
+npm install express mongoose cors multer dotenv  
 npm install nodemon --save-dev
-##4. Configure Environment Variables
 
-Create a .env file inside the backend folder.
+### 4. Configure Environment Variables
 
-MONGO_URI=mongodb://127.0.0.1:27017/teamdb
+Create a `.env` file inside the backend folder.
+
+MONGO_URI=mongodb://127.0.0.1:27017/teamdb  
 PORT=5000
 
-##How to Run the Application
-Run Backend Server
-cd backend
+---
+
+## How to Run the Application
+
+### Run Backend Server
+
+cd backend  
 npm run dev
 
 Backend runs at:
 
 http://localhost:5000
-Run Frontend Application
+
+### Run Frontend Application
 
 Open a new terminal:
 
-cd frontend
+cd frontend  
 npm start
 
 Frontend runs at:
 
 http://localhost:3000
-##API Endpoints
-Base URL
+
+---
+
+## API Endpoints
+
+### Base URL
+
 http://localhost:5000/api/members
-1. Get All Members
+
+### Get All Members
+
 GET /api/members
-Description:
 
 Fetch all team members from MongoDB.
 
-2. Get Single Member
+### Get Single Member
+
 GET /api/members/:id
-Description:
 
 Fetch complete details of one member using ID.
 
-###Example:
+### Example
+
 GET /api/members/661234abcd5678ef9012
-3. Add New Member
+
+### Add New Member
+
 POST /api/members
-Description:
 
 Add a new team member with image upload.
 
-Form Data:
-name
-role
-email
-contact
-bio
-image
-UI Pages Included
-Home Page
-Add Member Page
-View Members Page
-Member Details Page
-##Sample Workflow
-Open Home Page
-Click Add Member
-Fill form and upload image
-Submit member details
-View members list
-Click View Details
+#### Form Data
+
+- name
+- role
+- email
+- contact
+- bio
+- image
+
+---
+
+## UI Pages Included
+
+- Home Page
+- Add Member Page
+- View Members Page
+- Member Details Page
+
+---
+
+## Sample Workflow
+
+1. Open Home Page  
+2. Click Add Member  
+3. Fill form and upload image  
+4. Submit member details  
+5. View members list  
+6. Click View Details
