@@ -81,39 +81,6 @@ student-team-app/
 │── .gitignore
 
 ```
-## Technologies Used
-
-### Frontend
-- React.js
-- React Router DOM
-- Axios
-- CSS3
-
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- MongoDB
-- Mongoose
-
-### Other Tools
-- Multer (Image Upload)
-- Visual Studio Code
-- MongoDB Compass
-
----
-
-# Features
-
-- Clean and user-friendly homepage
-- Add new team members with image upload
-- View all team members
-- View complete member details
-- Store data in MongoDB
-- REST API integration
-- Responsive modern UI
-
 ---
 
 Installation Steps
