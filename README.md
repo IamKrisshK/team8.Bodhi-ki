@@ -1,12 +1,84 @@
 # Student Team Members Management Application
-##By Team 8 Bodhi-Ki
 
-## Project Description
+A full-stack web application to manage student team members with profile image upload, member listing, and detailed profile viewing.
 
-The **Student Team Members Management Application** is a full-stack web application developed to manage student team members in an organized and efficient way. This system allows users to add new team members, upload profile images, view all members, and view detailed information about individual members.
+---
 
-It is designed for student project groups, academic teams, clubs, or organizations that need a simple digital platform to maintain member records.
+## Project Overview
 
+The Student Team Members Management Application helps student groups organize and manage their team information in one place.
+
+Users can:
+
+- Add new members
+- Upload profile photos
+- View all members
+- View full member details
+- Store data securely in MongoDB
+
+This project is built using:
+
+- Frontend: React.js
+- Backend: Node.js + Express.js
+- Database: MongoDB
+- Styling: CSS3
+- Image Upload: Multer
+
+---
+
+## Features
+
+- Home Page with team introduction
+- Add Member Form
+- Image Upload Support
+- View All Members Page
+- Member Details Page
+- REST API Integration
+- Clean Responsive UI
+
+---
+
+## Tech Stack
+
+### Frontend
+- React.js
+- React Router DOM
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+- Mongoose
+
+### Other Tools
+- Multer
+- VS Code
+- MongoDB Compass
+
+---
+
+## Project Structure
+
+```text
+student-team-app/
+│── frontend/
+│   ├── public/
+│   ├── src/
+│   └── package.json
+│
+│── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── uploads/
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+│
+│── README.md
+│── .gitignore
 ## Technologies Used
 
 ### Frontend
@@ -41,26 +113,6 @@ It is designed for student project groups, academic teams, clubs, or organizatio
 - Responsive modern UI
 
 ---
-
-# Project Structure
-
-```text
-student-team-app/
-│── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-│── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── uploads/
-│   ├── server.js
-│   └── package.json
-│
-│── README.md
-│── .gitignore
-```
 
 Installation Steps
 ##1. Clone the Repository
