@@ -8,7 +8,7 @@ export default function ViewMembers(){
  {members.map(m=><div className='card' key={m._id}>
    <img src={`http://localhost:5050/uploads/${m.image}`} alt='' />
    <h3>{m.name}</h3>
-   <p>{m.role}</p>
+   <p>{m.rollNumber}</p>
    <Link className='btn small' to={`/members/${m._id}`}>View Details</Link>
  </div>)}
  </div>
