@@ -87,8 +87,8 @@ student-team-app/
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-team-name/your-repository-name.git  
-cd your-repository-name
+git clone https://github.com/IamKrisshK/team8.Bodhi-ki
+cd team8.Bodhi-ki
 
 ### 2. Install Frontend Dependencies
 
