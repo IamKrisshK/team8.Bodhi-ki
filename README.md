@@ -107,8 +107,8 @@ npm install nodemon --save-dev
 
 Create a `.env` file inside the backend folder.
 
-MONGO_URI=mongodb://127.0.0.1:27017/teamdb  
-PORT=5000
+MONGO_URI=mongodb://127.0.0.1:27017
+PORT=5050
 
 ---
 
